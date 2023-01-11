@@ -1,7 +1,7 @@
 // $color-primary: #f59a83;
-$color-primary: #3498db;
-$color-grad-1: #aed6f1;
-$color-grad-2: #85c1e9;
+$color-primary: #cc2b5e;
+$color-grad-1: #cc2b5e;
+$color-grad-2: #753a88;
 
 //#AED6F1
 //#85C1E9
@@ -12,7 +12,7 @@ $color-grey-light-3: #d3c7c3; // Light text (placeholder)
 $color-grey-dark-1: #615551; // Normal text
 $color-grey-dark-2: #918581; // Lighter text
 
-$gradient: linear-gradient(to right bottom, #aed6f1, #85c1e9);
+$gradient: linear-gradient(to right bottom, $color-grad-1, $color-grad-2);
 
 $bp-large: 78.15em; // 1250px
 $bp-medium: 61.25em; // 980px
